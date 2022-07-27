@@ -99,45 +99,30 @@ body {
 	top: 50%;
 	transform: translate(-50%, -50%);
 }
- .wheel div:before {
-    content: '';
-    width: 0;
-    height: 0;
-    position: absolute;
-    top: -8.75px;
-    left: 0;
-    border-left: 16.363px solid transparent;
-    border-right: 16.363px solid transparent;
-    border-bottom: 8.75px solid black;
+.wheel div:before {
+	content: "";
+	width: 0;
+	height: 0;
+	position: absolute;
+	top: -8.75px;
+	left: 0;
+	border-left: 16.363px solid transparent;
+	border-right: 16.363px solid transparent;
+	border-bottom: 8.75px solid black;
 }
 
 .wheel div:after {
-    content: '';
-    width: 0;
-    height: 0;
-    position: absolute;
-    bottom: -8.75px;
-    left: 0;
-    border-left: 16.363px solid transparent;
-    border-right: 16.363px solid transparent;
-    border-top: 8.75px solid black;
-} 
-/* .wheel::before {
 	content: "";
-	display: block;
-	height: 35px;
-	width: 35px;
-	background-color: black;
+	width: 0;
+	height: 0;
 	position: absolute;
-	left: 50%;
-	top: 50%;
-	transform: translate(-50%, -50%);
-	border-radius: 50%;
-} */
+	bottom: -8.75px;
+	left: 0;
+	border-left: 16.363px solid transparent;
+	border-right: 16.363px solid transparent;
+	border-top: 8.75px solid black;
+}
 .car__wheels {
-	/* padding: 0px 0px 0px 90px; */
-	/* margin: -60px 0px 0px 0px; */
-
 	position: absolute;
 	width: 761px;
 	height: 130px;
@@ -152,16 +137,6 @@ body {
 	position: absolute;
 	right: 90px;
 }
-/* .wheel div {
-	height: 35px;
-	width: 35px;
-	background-color: black;
-	position: absolute;
-	left: 50%;
-	top: 50%;
-	transform: translate(-50%, -50%);
-	border-radius: 50%;
-} */
 .main {
 	font-size: 0;
 	height: 100%;
@@ -334,8 +309,6 @@ body {
 	}
 }
 .car {
-	/* max-width: 800px;
-	margin: 0 auto; */
 	white-space: nowrap;
 	position: absolute;
 	right: 100px;
